@@ -25,7 +25,7 @@ public class Server {
 		try {
 			socket.receive(Ain);
 			byte[] Abytes = Ain.getData();
-			double A = Double.parseDouble(Abytes.toString());
+			double A = Double.parseDouble(new String(Abytes));
 			
 			Random rand = new Random();
 			int b = rand.nextInt(20);

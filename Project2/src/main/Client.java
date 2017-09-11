@@ -28,6 +28,8 @@ public class Client
             InetAddress hostAddress = InetAddress.getByName("localhost");
             
             // Sends the session key.
+            System.out.println(key);
+            System.out.println(String.valueOf(key));
             byte[] bytesKey = String.valueOf(key).getBytes();
             DatagramPacket dpKey = new DatagramPacket(bytesKey, bytesKey.length, hostAddress, port);
             socket.send(dpKey);
@@ -36,7 +38,7 @@ public class Client
             DatagramPacket replyAlice = new DatagramPacket(bufferAlice, bufferAlice.length);
             socket.receive(replyAlice);
             byte[] bytesReply = replyAlice.getData();
-            double B = Double.parseDouble(bytesReply.toString());
+            double B = Double.parseDouble(new String(bytesReply));
             s = Math.pow(B, a) % p;
             System.out.println(s);
             
