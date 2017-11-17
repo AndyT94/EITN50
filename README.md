@@ -28,10 +28,11 @@ ordinary text files from which we can build two programs,  each for each communi
 Use either Java or Python and in case you use non-default libraries/components your source code
 delivery should provide all code needed to build the programs.
 Examples of useful cryptography libraries are
-• BouncyCastle when you program in Java, and
-• PyCrypto or cryptography when you program in python.
+..* BouncyCastle when you program in Java, and
+..* PyCrypto or cryptography when you program in python.
 
 ## References
 [1]  J Mattsson, G Selander, Object Security in Web of Things, 2014, W3 Org.
+
 [2]  G Selander, F Palombini, J Mattsson, L Seitz, Application Layer Security for the Internet of
 Things, unpublished.
