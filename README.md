@@ -1,6 +1,7 @@
 # EITN50
 EITN50 - Advanced computer security
 
+## Instructions
 TLS and IPsec are protocols to provide a secure connection between two communicating entities.
 These protocols are very popular.  One thing these two protocols have in common is that they are
 session based.  For many use cases this is not a problem and even fit natural with the nature of the
@@ -28,8 +29,8 @@ ordinary text files from which we can build two programs,  each for each communi
 Use either Java or Python and in case you use non-default libraries/components your source code
 delivery should provide all code needed to build the programs.
 Examples of useful cryptography libraries are
-..* BouncyCastle when you program in Java, and
-..* PyCrypto or cryptography when you program in python.
+* BouncyCastle when you program in Java, and
+* PyCrypto or cryptography when you program in python.
 
 ## References
 [1]  J Mattsson, G Selander, Object Security in Web of Things, 2014, W3 Org.
